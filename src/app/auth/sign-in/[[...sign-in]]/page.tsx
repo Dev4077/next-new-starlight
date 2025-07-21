@@ -28,9 +28,5 @@ export default async function Page() {
 }
 
 export function generateStaticParams() {
-  return [
-    { 'sign-in': [] } // This represents /auth/sign-in
-    // Add additional static paths if you need, e.g.:
-    // { 'sign-in': ['extra'] }, // /auth/sign-in/extra
-  ];
+  return [{ 'sign-in': [] }];
 }
