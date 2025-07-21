@@ -7,3 +7,7 @@ export const metadata = {
 export default async function Page() {
   return <ProfileViewPage />;
 }
+
+export function generateStaticParams() {
+  return [{ profile: [] }];
+}
